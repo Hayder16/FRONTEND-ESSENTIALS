@@ -1,0 +1,1 @@
+console.log("Mijn naam is Hayder en dit is mijn eerste console bericht.");
