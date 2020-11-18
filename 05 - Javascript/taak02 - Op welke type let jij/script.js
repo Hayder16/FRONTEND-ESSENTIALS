@@ -8,3 +8,4 @@ let ikMagBrommerRijden = false;
 let softwareOntwikkeling = true;
 
 console.log(naamStudent)
+
