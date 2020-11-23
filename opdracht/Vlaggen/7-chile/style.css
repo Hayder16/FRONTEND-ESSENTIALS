@@ -1,0 +1,30 @@
+*{
+    font-size:0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+#bovenkant{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    display: inline-block;
+}
+
+#bovenkantlinks{
+    width: 30%;
+    height: 250px;
+    background-color: blue;
+}
+
+#onderkant{
+    width: 100%;
+    height: 250px;
+    background-color: red;
+    display: inline-block;
+}

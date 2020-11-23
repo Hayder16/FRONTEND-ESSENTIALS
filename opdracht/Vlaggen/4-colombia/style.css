@@ -1,0 +1,28 @@
+
+*{
+    font-size:0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+
+#bovenkant{
+    width: 800px;
+    height: 55%;
+    background-color: yellow;
+}
+#midden{
+    width: 800px;
+    height: 22.5%;
+    background-color:blue;
+}
+#onderkant{
+    width: 800px;
+    height: 22.5%;
+    background-color: red;
+}

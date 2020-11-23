@@ -9,18 +9,21 @@
 }
 
 .button{
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     background-color: red;
     margin: 2px;
-    display: flex;
+    display: relative;
     justify-content: center;
     align-items: center;
-    
 }
 
 .button span{
     
     font-size: 2em;
     font-family: consolas;
+}
+
+.table{
+    text-align: center;
 }

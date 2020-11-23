@@ -7,32 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <table>
+        <thead>
+        </thead>
+           <tr>
+            <td>Voornaam</td>
+            <td>Achternaam</td>
+        </tr>
+        <tr>
+            <th id="voornaam"></th>
+            <th id="achternaam"></th>
+        </tr>
+        <tr>
+            <td>leeftijd</td>
+            <td>woonplaats</td>
+            <td>E-mail</td>
+        </tr>
+        <tr>
+            <th id="leeftijd"></th>
+            <th id="woonplaats"></th>
+            <th id="email"></th>
+        </tr>
+    </tb>
+        </table>
     <div class="container status">
         
     </div>
     <div class="container">
         <div class="col">
-            <div class="button" id="eten"><span>Geef eten</span></div>
-            <div class="button" id="drinken"><span>Geef Drinken</span></div>
-            <div class="button" id="aaien"><span>Aaien</span></div>
+            <div class="button" id="eten"><a href="index1.html"><span>Vlaggen</span></a><</div>
+                
         </div>
         <div class="col">
         </div>
         <div class="response"></div>
     </div>
-    <script>
-        
-        let persoon = {
-            voornaam : prompt("Wat is je naam?"),
-            achternaam : prompt("Wat is je achternaam?"),
-            leeftijd : prompt("Wat is je leeftijd?"),
-        };
-
-
-
-        
-        
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

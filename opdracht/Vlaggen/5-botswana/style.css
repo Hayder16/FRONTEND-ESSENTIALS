@@ -1,0 +1,37 @@
+*{
+    font-size:0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+
+
+#bovenkant{
+    width: 800px;
+    height: 35%;
+    background-color: lightskyblue;
+}
+#midden1{
+    width: 800px;
+    height: 5%;
+    background-color:white;
+}
+#midden2{
+    width: 800px;
+    height: 20%;
+    background-color:black;
+}
+#midden3{
+    width: 800px;
+    height: 5%;
+    background-color:white;
+}
+#onderkant{
+    width: 800px;
+    height: 35%;
+    background-color: lightskyblue;
+}
