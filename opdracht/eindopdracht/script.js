@@ -18,8 +18,9 @@ if(bezoeker.leeftijd ==18) {
 if(bezoeker.leeftijd ==0) {
     document.body.style.backgroundColor = 'green';
 }
-document.querySelector("#voornaam").innerHTML = bezoeker.Voornaam;
+document.querySelector("#voornaam").innerHTML = bezoeker.voornaam;
 document.querySelector("#achternaam").innerHTML = bezoeker.achternaam;
 document.querySelector("#leeftijd").innerHTML = bezoeker.leeftijd;
-document.querySelector("#woonplaats").innerHTML = bezoeker.Woonplaats;
-document.querySelector("#email").innerHTML = bezoeker.Email;
+document.querySelector("#woonplaats").innerHTML = bezoeker.woonplaats;
+document.querySelector("#email").innerHTML = bezoeker.email;
+document.querySelector("#halah").innerHTML = bezoeker.voornaam + " " + bezoeker.achternaam;
